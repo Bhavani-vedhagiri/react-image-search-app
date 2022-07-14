@@ -1,0 +1,100 @@
+html, body {
+  font-family: Verdana,sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #111;
+}
+.App {
+  text-align: center;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+h1 {
+  padding-top: 5vh;
+  text-transform: uppercase;
+  color: aliceblue;
+  margin-left: -5rem;
+}
+p { 
+  color: aliceblue;
+  margin-left: -8rem;
+}
+.menu-icon {
+  position: fixed;
+  text-align: right;
+  line-height: 1.5em;
+  right: 3rem;
+  top: 3rem;
+  z-index: 100;
+  padding-right: 2em;
+  color: white;
+  cursor: pointer;
+  
+}
+.menu-icon::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0.15em;
+  width: 1.2em;
+  height: 0.2em;
+  background: white;
+  box-shadow: 0 0.4em 0 0 white, 0 0.80em 0 0 white;
+}
+
+input:focus {
+  outline-offset: -2px;
+}
+
+.container {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+width:100%;
+ 
+  margin-top: -1em; /*set to a negative number 1/2 of your height*/
+  margin-left: -15em; /*set to a negative number 1/2 of your width*/
+
+ 
+}
+
+
+
+
+#submitsearch{
+border: 1px solid rgb(138, 134, 134);
+margin-left: -75px;
+padding: 5px;
+border-radius: 19px;
+cursor: pointer;
+padding-left: 10px;
+padding-right: 8px; 
+padding-top: 4px;
+
+
+/* display: none; */
+box-shadow: 0 0 1px black;     
+margin-right:110px;
+}
+
+#searchInput {
+    width: 18%;
+    border: 1px solid #000;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    background-image:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png');
+    background-position: 10px 7px;
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 40px;
+    -webkit-transition: width 0.8s ease-in-out;
+    transition: width 0.8s ease-in-out;
+    outline: none;
+    /* opacity: 0; */
+
+  }
+
+
+
+
+
